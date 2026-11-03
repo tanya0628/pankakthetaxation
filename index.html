@@ -1,0 +1,2010 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pankaj The Taxation provides taxation, GST, ITR, company registration, government licence and business compliance services across Delhi NCR.">
+<meta name="keywords" content="Tax consultant Delhi NCR, GST registration, ITR filing, FSSAI licence, company registration, Pankaj The Taxation">
+<meta name="author" content="Pankaj The Taxation">
+<title>Pankaj The Taxation | Taxation & Business Consultancy</title>
+<link rel="icon" type="image/jpg" href="taxtaionlogo - Edited.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+:root {
+  --primary: #38bdf8;
+  --blue: #1476b8;
+  --dark: #172b4d;
+  --light: #f0f9ff;
+  --text: #52647b;
+  --white: #ffffff;
+  --border: #e3edf5;
+  --shadow: 0 12px 35px rgba(20, 75, 120, .09);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark);
+  background: var(--white);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+img { max-width: 100%; }
+
+.container {
+  width: min(1160px, 91%);
+  margin: auto;
+}
+
+section { padding: 90px 0; scroll-margin-top: 85px; }
+
+.section-heading {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 45px;
+}
+
+.section-tag {
+  display: inline-block;
+  color: var(--blue);
+  background: #eaf7ff;
+  padding: 7px 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.section-heading h2 {
+  font: 800 clamp(27px, 4vw, 39px)/1.2 'Manrope', sans-serif;
+  margin-bottom: 14px;
+}
+
+.section-heading p {
+  color: var(--text);
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 0;
+  padding: 14px 23px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.btn-primary {
+  color: white;
+  background: linear-gradient(110deg, #38bdf8, #1476b8);
+  box-shadow: 0 7px 20px rgba(20,118,184,.2);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(20,118,184,.3);
+}
+
+.btn-outline {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  background: white;
+}
+
+.btn-outline:hover {
+  color: white;
+  background: var(--blue);
+}
+
+.topbar {
+  background: #123c60;
+  color: white;
+  padding: 9px 0;
+  font-size: 12px;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.top-info {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.topbar i { color: #7dd3fc; margin-right: 6px; }
+
+.navbar {
+  height: 78px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,.96);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.logo-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 22px;
+  background: linear-gradient(135deg, #38bdf8, #1476b8);
+}
+
+.logo-text strong {
+  display: block;
+  font: 800 19px 'Manrope';
+  letter-spacing: -.7px;
+}
+
+.logo-text span {
+  font-size: 10px;
+  letter-spacing: 2.4px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 12px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.nav-links a:hover { color: var(--blue); }
+
+.nav-contact {
+  padding: 12px 17px;
+  font-size: 12px;
+}
+
+.menu-btn {
+  display: none;
+  border: 0;
+  background: var(--light);
+  color: var(--blue);
+  font-size: 21px;
+  padding: 9px 12px;
+  border-radius: 7px;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(56,189,248,.17), transparent 30%),
+    linear-gradient(115deg, #ffffff 48%, #eff9ff 100%);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  right: -160px;
+  bottom: -230px;
+  border-radius: 50%;
+  background: rgba(56,189,248,.12);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #e6f6ff;
+  color: #1476b8;
+  border-radius: 30px;
+  padding: 9px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.hero h1 {
+  font: 800 clamp(36px, 5vw, 57px)/1.16 'Manrope';
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 span { color: var(--blue); }
+
+.hero-content > p {
+  color: var(--text);
+  max-width: 550px;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+
+.hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  margin-top: 32px;
+}
+
+.hero-features span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #455b72;
+}
+
+.hero-features i { color: #16a3dc; margin-right: 5px; }
+
+.hero-visual {
+  position: relative;
+  padding: 20px;
+}
+
+.hero-visual img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.floating-card {
+  position: absolute;
+  bottom: 42px;
+  left: -12px;
+  background: white;
+  padding: 17px 21px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: float 3s infinite ease-in-out;
+}
+
+.floating-card i {
+  background: #e3f6ff;
+  color: var(--blue);
+  padding: 13px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.floating-card strong { display: block; font-size: 14px; }
+.floating-card small { color: var(--text); font-size: 11px; }
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* TRUST STRIP */
+
+.trust-strip {
+  background: #123c60;
+  padding: 23px 0;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.trust-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: white;
+}
+
+.trust-item i {
+  font-size: 25px;
+  color: #7dd3fc;
+}
+
+.trust-item strong { display: block; font-size: 13px; }
+.trust-item small { font-size: 10px; color: #c6d9e8; }
+
+/* ABOUT */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 65px;
+  align-items: center;
+}
+
+.about-image { position: relative; }
+
+.about-image img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about-badge {
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+  padding: 22px;
+  border-radius: 12px;
+  background: var(--blue);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.about-badge strong { display: block; font-size: 21px; }
+.about-badge small { font-size: 11px; }
+
+.about-content .section-tag { margin-bottom: 15px; }
+
+.about-content h2 {
+  font: 800 35px/1.25 'Manrope';
+  margin-bottom: 19px;
+}
+
+.about-content > p {
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 23px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.about-point {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.about-point i {
+  color: var(--blue);
+  background: #eaf7ff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* SERVICES */
+
+.services-section { background: #f6fbff; }
+
+.service-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.filter-btn {
+  border: 1px solid var(--border);
+  background: white;
+  color: var(--text);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+}
+
+.service-search {
+  display: block;
+  width: min(450px,100%);
+  margin: 0 auto 35px;
+  padding: 14px 17px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  outline: none;
+  background: white;
+}
+
+.service-search:focus { border-color: var(--primary); }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: white;
+  border: 1px solid #eaf1f7;
+  border-radius: 12px;
+  padding: 24px;
+  transition: .35s;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  box-shadow: var(--shadow);
+  border-color: #a8def9;
+}
+
+.service-icon {
+  width: 51px;
+  height: 51px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  color: var(--blue);
+  background: #eaf7ff;
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+
+.service-card h3 {
+  font: 700 17px 'Manrope';
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--text);
+  font-size: 12px;
+  min-height: 60px;
+  margin-bottom: 18px;
+}
+
+.learn-more {
+  font-size: 12px;
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.learn-more i { margin-left: 5px; transition: .3s; }
+.learn-more:hover i { margin-left: 10px; }
+
+.no-results {
+  display: none;
+  text-align: center;
+  color: var(--text);
+  padding: 30px;
+}
+
+/* LICENCES */
+
+.licence-section { background: white; }
+
+.licence-grid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 17px;
+}
+
+.licence-card {
+  padding: 22px 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-align: center;
+  transition: .3s;
+  background: white;
+}
+
+.licence-card:hover {
+  background: var(--light);
+  transform: translateY(-5px);
+  border-color: var(--primary);
+}
+
+.licence-card i {
+  font-size: 28px;
+  color: var(--blue);
+  margin-bottom: 12px;
+}
+
+.licence-card h3 { font-size: 12px; }
+
+/* INDUSTRIES */
+
+.industries-section { background: var(--light); }
+
+.industry-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+}
+
+.industry-card {
+  min-height: 155px;
+  padding: 24px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: .3s;
+}
+
+.industry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.industry-card i {
+  color: var(--blue);
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.industry-card h3 { font-size: 15px; margin-bottom: 5px; }
+.industry-card p { color: var(--text); font-size: 11px; }
+
+/* WHY CHOOSE */
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.why-card {
+  padding: 26px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.why-card:hover {
+  border-color: var(--primary);
+  background: #f8fcff;
+}
+
+.why-card i {
+  font-size: 27px;
+  color: var(--blue);
+  margin-bottom: 14px;
+}
+
+.why-card h3 { font-size: 15px; margin-bottom: 8px; }
+.why-card p { color: var(--text); font-size: 12px; }
+
+/* PROCESS */
+
+.process-section {
+  background: #123c60;
+  color: white;
+}
+
+.process-section .section-heading p { color: #c6d9e8; }
+.process-section .section-tag { background: #245778; color: #b8e8ff; }
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.process-card { text-align: center; position: relative; }
+
+.process-number {
+  width: 65px;
+  height: 65px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #68bce9;
+  border-radius: 50%;
+  margin: 0 auto 18px;
+  color: #8ddcff;
+  font-size: 23px;
+  background: #1a5277;
+}
+
+.process-card h3 { font-size: 14px; margin-bottom: 8px; }
+.process-card p { font-size: 11px; color: #c6d9e8; }
+
+/* CTA */
+
+.cta-section { padding: 65px 0; background: #f2faff; }
+
+.cta-box {
+  background: linear-gradient(110deg,#1476b8,#38bdf8);
+  color: white;
+  padding: 42px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-box h2 { font: 800 27px 'Manrope'; margin-bottom: 8px; }
+.cta-box p { font-size: 13px; color: #e8f8ff; }
+
+.cta-box .btn {
+  background: white;
+  color: var(--blue);
+  flex-shrink: 0;
+}
+
+/* CONTACT */
+
+.contact-section { background: white; }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contact-info {
+  background: #f0f9ff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.contact-info h3 {
+  font: 800 23px 'Manrope';
+  margin-bottom: 12px;
+}
+
+.contact-info > p {
+  color: var(--text);
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.contact-item > i {
+  min-width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: white;
+  color: var(--blue);
+  border-radius: 9px;
+}
+
+.contact-item strong { display: block; font-size: 12px; }
+.contact-item span, .contact-item a { color: var(--text); font-size: 12px; overflow-wrap: anywhere; }
+
+.contact-form {
+  padding: 30px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.contact-form h3 {
+  font: 800 23px 'Manrope';
+  margin-bottom: 22px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+.form-group { margin-bottom: 16px; }
+.form-group.full { grid-column: 1/-1; }
+
+.form-group label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 13px;
+  font-size: 12px;
+  outline: none;
+  background: #fbfdff;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: var(--primary); }
+
+.form-group textarea { height: 110px; resize: vertical; }
+
+.form-note {
+  color: var(--text);
+  font-size: 10px;
+  margin-top: 12px;
+}
+
+.success-message {
+  display: none;
+  margin-top: 15px;
+  padding: 13px;
+  background: #e9fbee;
+  color: #18733a;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+/* FOOTER */
+
+footer {
+  background: #102d48;
+  color: white;
+  padding: 65px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 35px;
+  margin-bottom: 45px;
+}
+
+.footer-brand .logo-text strong { color: white; }
+.footer-brand p {
+  color: #b8cad9;
+  font-size: 12px;
+  margin: 18px 0;
+  max-width: 290px;
+}
+
+.footer-grid h3 {
+  font-size: 14px;
+  margin-bottom: 19px;
+}
+
+.footer-links { list-style: none; }
+
+.footer-links li { margin-bottom: 11px; }
+
+.footer-links a {
+  color: #b8cad9;
+  font-size: 11px;
+  transition: .3s;
+}
+
+.footer-links a:hover { color: #7dd3fc; }
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social a {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  background: #234764;
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid #29445c;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 11px;
+  color: #b8cad9;
+}
+
+/* WHATSAPP */
+
+.whatsapp-float {
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  width: 57px;
+  height: 57px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #20c76a;
+  color: white;
+  font-size: 28px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.2);
+  z-index: 999;
+  transition: .3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background: #13a957;
+}
+
+/* REVEAL */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: .7s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px) {
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 11px; }
+  .nav-contact { display: none; }
+  .services-grid { grid-template-columns: repeat(2,1fr); }
+  .licence-grid { grid-template-columns: repeat(3,1fr); }
+  .footer-grid { grid-template-columns: repeat(2,1fr); }
+}
+
+@media(max-width:760px) {
+  section { padding: 65px 0; }
+
+  .topbar .container { justify-content: center; }
+  .top-social { display: none; }
+
+  .navbar { height: 70px; }
+  .menu-btn { display: block; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px 5%;
+    gap: 0;
+    box-shadow: var(--shadow);
+  }
+
+  .nav-links.active { display: flex; }
+  .nav-links li { border-bottom: 1px solid var(--border); }
+  .nav-links a { display: block; padding: 13px 5px; font-size: 13px; }
+  .nav-links .mobile-consult { display: block; }
+
+  .hero { padding: 65px 0; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero h1 { letter-spacing: -1px; }
+  .hero-visual { padding: 5px; }
+  .hero-visual img { height: 320px; }
+  .floating-card { left: 0; bottom: 20px; }
+
+  .trust-grid { grid-template-columns: repeat(2,1fr); gap: 25px; }
+
+  .about-grid { grid-template-columns: 1fr; gap: 35px; }
+  .about-image img { height: 330px; }
+  .about-badge { right: 5px; }
+
+  .industry-grid { grid-template-columns: repeat(2,1fr); }
+  .why-grid { grid-template-columns: repeat(2,1fr); }
+  .process-grid { grid-template-columns: repeat(2,1fr); row-gap: 35px; }
+
+  .cta-box { flex-direction: column; align-items: flex-start; padding: 30px; }
+
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+@media(max-width:480px) {
+  .container { width: 92%; }
+  .logo-text strong { font-size: 16px; }
+  .logo-icon { width: 40px; height: 40px; }
+  .top-info { justify-content: center; font-size: 10px; gap: 10px; }
+
+  .hero h1 { font-size: 37px; }
+  .hero-content > p { font-size: 13px; }
+  .hero-buttons .btn { width: 100%; }
+  .hero-features { gap: 12px; }
+  .hero-features span { font-size: 10px; }
+
+  .trust-grid { grid-template-columns: 1fr 1fr; }
+  .trust-item { align-items: flex-start; }
+  .trust-item i { font-size: 20px; }
+  .trust-item strong { font-size: 11px; }
+
+  .services-grid { grid-template-columns: 1fr; }
+  .service-card p { min-height: auto; }
+  .licence-grid { grid-template-columns: repeat(2,1fr); }
+  .industry-grid, .why-grid { grid-template-columns: 1fr; }
+  .process-grid { grid-template-columns: 1fr 1fr; }
+
+  .about-content h2 { font-size: 28px; }
+  .about-points { grid-template-columns: 1fr; }
+
+  .form-grid { grid-template-columns: 1fr; }
+  .form-group.full { grid-column: auto; }
+  .contact-form { padding: 20px; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+
+  .cta-box h2 { font-size: 23px; }
+  .whatsapp-float { width: 52px; height: 52px; right: 15px; bottom: 15px; }
+}
+.logo-img {
+    width: 350px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .logo-img {
+        width: 135px;
+        height: 52px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="top-info">
+      <span><i class="fa-solid fa-envelope"></i> pankajthetaxation@gmail.com</span>
+      <span><i class="fa-solid fa-phone"></i> +91 8285620650</span>
+    </div>
+    <span class="top-social">Professional Consultancy | Delhi NCR</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-container">
+
+   <a href="#home" class="logo">
+    <img src="taxtaionlogo-removebg-preview.png" alt="Pankaj The Taxation Logo" class="logo-img">
+</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Our Services</a></li>
+      <li><a href="#licences">Licences</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+     
+    </ul>
+
+    <a href="#contact" class="btn btn-primary nav-contact">
+      Get Consultation <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div class="hero-content reveal">
+
+      <div class="hero-label">
+        <i class="fa-solid fa-circle-check"></i>
+        YOUR TRUSTED COMPLIANCE PARTNER
+      </div>
+
+      <h1>
+        Your Trusted Partner for
+        <span>Taxation & Business Compliance</span>
+      </h1>
+
+      <p>
+        Complete solutions for taxation, business registrations,
+        government licences, legal documentation and regulatory
+        compliance – all under one roof.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#services" class="btn btn-primary">
+          Explore Our Services <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <a href="#contact" class="btn btn-outline">
+          Get Free Consultation
+        </a>
+      </div>
+
+      <div class="hero-features">
+        <span><i class="fa-solid fa-circle-check"></i> Delhi NCR Services</span>
+        <span><i class="fa-solid fa-circle-check"></i> Business Solutions</span>
+        <span><i class="fa-solid fa-circle-check"></i> Professional Assistance</span>
+      </div>
+
+    </div>
+
+    <div class="hero-visual reveal">
+      <img
+        src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=85"
+        alt="Professional business consultancy and documentation"
+      >
+
+      <div class="floating-card">
+        <i class="fa-solid fa-file-circle-check"></i>
+        <div>
+          <strong>Complete Compliance</strong>
+          <small>Professional Business Assistance</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="container trust-grid">
+
+    <div class="trust-item">
+      <i class="fa-solid fa-building"></i>
+      <div><strong>Business Registration</strong><small>Professional Assistance</small></div>
+    </div>
+
+    <div class="trust-item">
+      <i class="fa-solid fa-calculator"></i>
+      <div><strong>Taxation Services</strong><small>ITR & GST Compliance</small></div>
+    </div>
+
+    <div class="trust-item">
+      <i class="fa-solid fa-file-shield"></i>
+      <div><strong>Licences & Approvals</strong><small>Application Assistance</small></div>
+    </div>
+
+    <div class="trust-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <div><strong>Delhi NCR Coverage</strong><small>Serving Multiple Businesses</small></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container about-grid">
+
+    <div class="about-image reveal">
+      <img
+        src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85"
+        alt="Professional business consultation meeting"
+      >
+
+      <div class="about-badge">
+        <strong>One Roof</strong>
+        <small>Multiple Business Solutions</small>
+      </div>
+    </div>
+
+    <div class="about-content reveal">
+      <span class="section-tag">ABOUT OUR COMPANY</span>
+
+      <h2>Simplifying Business Compliance & Legal Formalities</h2>
+
+      <p>
+        Pankaj The Taxation is a professional consultancy providing
+        comprehensive taxation, registration, licensing and
+        compliance services across Delhi NCR.
+      </p>
+
+      <p>
+        We assist individuals, startups, entrepreneurs, manufacturers
+        and established businesses with their legal and regulatory
+        requirements. Our objective is to simplify complex procedures
+        through professional guidance and reliable documentation.
+      </p>
+
+      <div class="about-points">
+        <div class="about-point"><i class="fa-solid fa-bullseye"></i> Our Mission</div>
+        <div class="about-point"><i class="fa-solid fa-eye"></i> Our Vision</div>
+        <div class="about-point"><i class="fa-solid fa-handshake"></i> Client Support</div>
+        <div class="about-point"><i class="fa-solid fa-shield-halved"></i> Transparent Process</div>
+      </div>
+
+      <br>
+      <a href="#contact" class="btn btn-primary">Talk to Our Team <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">WHAT WE OFFER</span>
+      <h2>Our Professional Services</h2>
+      <p>Comprehensive taxation, registration, licensing and compliance solutions for your business.</p>
+    </div>
+
+    <div class="service-filters">
+      <button class="filter-btn active" data-filter="all">All Services</button>
+      <button class="filter-btn" data-filter="tax">Taxation</button>
+      <button class="filter-btn" data-filter="registration">Registration</button>
+      <button class="filter-btn" data-filter="licence">Licences</button>
+      <button class="filter-btn" data-filter="testing">Testing</button>
+      <button class="filter-btn" data-filter="other">Other Services</button>
+    </div>
+
+    <input
+      type="search"
+      class="service-search"
+      id="serviceSearch"
+      placeholder="Search services... e.g. GST, FSSAI, ITR"
+      aria-label="Search services"
+    >
+
+    <div class="services-grid" id="servicesGrid">
+
+      <!-- TAXATION -->
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+        <h3>Income Tax Return</h3>
+        <p>Professional ITR filing assistance for individuals, professionals and businesses.</p>
+        <a href="#contact" class="learn-more" data-service="Income Tax Return">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-receipt"></i></div>
+        <h3>GST Registration</h3>
+        <p>Assistance with GST registration, documentation and applicable compliance requirements.</p>
+        <a href="#contact" class="learn-more" data-service="GST Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-file-circle-check"></i></div>
+        <h3>GST Return Filing</h3>
+        <p>GST return preparation and filing support for eligible businesses.</p>
+        <a href="#contact" class="learn-more" data-service="GST Return Filing">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-calculator"></i></div>
+        <h3>TDS Return Filing</h3>
+        <p>Assistance with TDS returns, tax deductions and related documentation.</p>
+        <a href="#contact" class="learn-more" data-service="TDS Return Filing">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-id-card"></i></div>
+        <h3>PAN & TAN Services</h3>
+        <p>PAN and TAN application and correction assistance.</p>
+        <a href="#contact" class="learn-more" data-service="PAN and TAN Services">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="tax">
+        <div class="service-icon"><i class="fa-solid fa-chart-pie"></i></div>
+        <h3>Tax Audit & Compliance</h3>
+        <p>Audit coordination, financial documentation and applicable tax compliance assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Tax Audit and Compliance">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <!-- REGISTRATION -->
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+        <h3>Company Incorporation</h3>
+        <p>Company formation and incorporation documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Company Incorporation">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h3>LLP Registration</h3>
+        <p>LLP formation, application and related documentation support.</p>
+        <a href="#contact" class="learn-more" data-service="LLP Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-folder-open"></i></div>
+        <h3>ROC Filing</h3>
+        <p>ROC filing and corporate compliance documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="ROC Filing">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-store"></i></div>
+        <h3>Shop Act Registration</h3>
+        <p>Shop and Establishment registration assistance as per applicable state rules.</p>
+        <a href="#contact" class="learn-more" data-service="Shop Act Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-certificate"></i></div>
+        <h3>MSME / Udyam Registration</h3>
+        <p>Udyam registration assistance for eligible micro, small and medium enterprises.</p>
+        <a href="#contact" class="learn-more" data-service="MSME Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-file-signature"></i></div>
+        <h3>Digital Signature Certificate</h3>
+        <p>Digital signature application and documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Digital Signature Certificate">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-landmark"></i></div>
+        <h3>Trust & Society Registration</h3>
+        <p>Trust and society formation and registration documentation support.</p>
+        <a href="#contact" class="learn-more" data-service="Trust and Society Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="registration">
+        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+        <h3>IEC Code</h3>
+        <p>Import Export Code application and related documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="IEC Code">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <!-- LICENCES -->
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-utensils"></i></div>
+        <h3>FSSAI Food Licence</h3>
+        <p>Food business registration and licensing application assistance.</p>
+        <a href="#contact" class="learn-more" data-service="FSSAI Food Licence">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+     
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-industry"></i></div>
+        <h3>Factory Licence</h3>
+        <p>Factory licensing and regulatory documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Factory Licence">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+        <h3>Pollution Licence</h3>
+        <p>Pollution control consent and related application assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Pollution Licence">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-award"></i></div>
+        <h3>ISO Certification</h3>
+        <p>Guidance and coordination for applicable ISO certification processes.</p>
+        <a href="#contact" class="learn-more" data-service="ISO Certification">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>CE Certification</h3>
+        <p>Product conformity documentation and certification assistance.</p>
+        <a href="#contact" class="learn-more" data-service="CE Certification">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-microscope"></i></div>
+        <h3>WHO-GMP & SITRA</h3>
+        <p>Guidance and coordination for applicable quality and certification requirements.</p>
+        <a href="#contact" class="learn-more" data-service="WHO-GMP and SITRA">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-trademark"></i></div>
+        <h3>Trademark Registration</h3>
+        <p>Trademark application and brand protection documentation assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Trademark Registration">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+        <h3>Labour Licences</h3>
+        <p>Labour-related registrations, licences and compliance assistance.</p>
+        <a href="#contact" class="learn-more" data-service="Labour Licences">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="licence">
+        <div class="service-icon"><i class="fa-solid fa-beer-mug-empty"></i></div>
+        <h3>Excise / Bar Licence</h3>
+        <p>Application documentation assistance subject to applicable excise regulations.</p>
+        <a href="#contact" class="learn-more" data-service="Excise and Bar Licence">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <!-- TESTING -->
+      <article class="service-card reveal" data-category="testing">
+        <div class="service-icon"><i class="fa-solid fa-flask"></i></div>
+        <h3>Laboratory Testing Reports</h3>
+        <p>Coordination for product testing and laboratory report requirements.</p>
+        <a href="#contact" class="learn-more" data-service="Laboratory Testing Reports">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="testing">
+        <div class="service-icon"><i class="fa-solid fa-vials"></i></div>
+        <h3>Product Quality Testing</h3>
+        <p>Product quality testing and compliance documentation coordination.</p>
+        <a href="#contact" class="learn-more" data-service="Product Quality Testing">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <!-- OTHER -->
+      <article class="service-card reveal" data-category="other">
+        <div class="service-icon"><i class="fa-solid fa-file-contract"></i></div>
+        <h3>Audit & Documentation</h3>
+        <p>Business documentation, record preparation and audit coordination.</p>
+        <a href="#contact" class="learn-more" data-service="Audit and Documentation">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="other">
+        <div class="service-icon"><i class="fa-solid fa-rotate"></i></div>
+        <h3>Registration Renewals</h3>
+        <p>Assistance with eligible registration renewals and periodic compliance.</p>
+        <a href="#contact" class="learn-more" data-service="Registration Renewals">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="service-card reveal" data-category="other">
+        <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <h3>Professional Consultancy</h3>
+        <p>Business registration, licensing and compliance guidance for enterprises.</p>
+        <a href="#contact" class="learn-more" data-service="Professional Consultancy">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+    </div>
+
+    <div class="no-results" id="noResults">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <p>No matching services found. Please try another keyword.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- LICENCES -->
+<section class="licence-section" id="licences">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">LICENSING & CERTIFICATION</span>
+      <h2>Essential Business Licences Under One Roof</h2>
+      <p>Get professional guidance and application assistance for essential business licences and certifications.</p>
+    </div>
+
+    <div class="licence-grid">
+
+      <div class="licence-card reveal"><i class="fa-solid fa-utensils"></i><h3>FSSAI</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-award"></i><h3>ISO Certification</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-shield-halved"></i><h3>CE Certification</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-capsules"></i><h3>WHO-GMP</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-certificate"></i><h3>SITRA</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-prescription-bottle-medical"></i><h3>Drug Licence</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-industry"></i><h3>Factory Licence</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-leaf"></i><h3>Pollution Licence</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-globe"></i><h3>IEC Code</h3></div>
+      <div class="licence-card reveal"><i class="fa-solid fa-people-group"></i><h3>Labour Licence</h3></div>
+
+    </div>
+
+    <p style="text-align:center;color:#64748b;font-size:11px;margin-top:22px;">
+      All services are subject to applicable eligibility, regulatory requirements and approval by the relevant authorities.
+    </p>
+
+    <div style="text-align:center;margin-top:28px;">
+      <a href="#contact" class="btn btn-primary">Need Help With a Licence? Contact Us</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="industries-section" id="industries">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">WHO WE SERVE</span>
+      <h2>Industries We Support</h2>
+      <p>Business compliance and professional assistance for a wide range of industries.</p>
+    </div>
+
+    <div class="industry-grid">
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-industry"></i>
+        <h3>Manufacturing Industries</h3>
+        <p>Licensing, factory and compliance support.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-bowl-food"></i>
+        <h3>Food & Beverage</h3>
+        <p>Food licences and product testing assistance.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-capsules"></i>
+        <h3>Pharmaceuticals</h3>
+        <p>Drug licensing and regulatory documentation.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Import & Export</h3>
+        <p>IEC and business registration support.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-store"></i>
+        <h3>Retail & Wholesale</h3>
+        <p>GST and business compliance solutions.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Startups & Entrepreneurs</h3>
+        <p>Business formation and taxation assistance.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-building"></i>
+        <h3>Corporate Offices</h3>
+        <p>ROC filing and corporate compliance.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-laptop"></i>
+        <h3>Service Businesses</h3>
+        <p>Taxation and registration assistance.</p>
+      </div>
+
+      <div class="industry-card reveal">
+        <i class="fa-solid fa-warehouse"></i>
+        <h3>Factories & Industrial Units</h3>
+        <p>Licensing and regulatory support.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">WHY CHOOSE US</span>
+      <h2>Your Business Deserves Professional Support</h2>
+      <p>We aim to make taxation and regulatory formalities simpler and more manageable.</p>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Complete Service Portfolio</h3>
+        <p>Multiple taxation, registration and licensing services in one place.</p>
+      </div>
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-file-circle-check"></i>
+        <h3>Documentation Assistance</h3>
+        <p>Guidance on documents and application procedures.</p>
+      </div>
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Delhi NCR Coverage</h3>
+        <p>Professional service support throughout Delhi NCR.</p>
+      </div>
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-handshake"></i>
+        <h3>Transparent Process</h3>
+        <p>Clear communication about requirements and processes.</p>
+      </div>
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Business-Focused Solutions</h3>
+        <p>Solutions designed around your business requirements.</p>
+      </div>
+
+      <div class="why-card reveal">
+        <i class="fa-solid fa-users"></i>
+        <h3>For Every Business</h3>
+        <p>Assistance for individuals, startups and established companies.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">HOW WE WORK</span>
+      <h2>Our Simple Working Process</h2>
+      <p>Four simple steps to get started with your business requirements.</p>
+    </div>
+
+    <div class="process-grid">
+
+      <div class="process-card reveal">
+        <div class="process-number"><i class="fa-solid fa-comments"></i></div>
+        <h3>01. Share Your Requirement</h3>
+        <p>Tell us which service you need.</p>
+      </div>
+
+      <div class="process-card reveal">
+        <div class="process-number"><i class="fa-solid fa-folder-open"></i></div>
+        <h3>02. Document Verification</h3>
+        <p>Share the required documents for review.</p>
+      </div>
+
+      <div class="process-card reveal">
+        <div class="process-number"><i class="fa-solid fa-file-signature"></i></div>
+        <h3>03. Application & Filing</h3>
+        <p>We assist with the applicable process.</p>
+      </div>
+
+      <div class="process-card reveal">
+        <div class="process-number"><i class="fa-solid fa-circle-check"></i></div>
+        <h3>04. Updates & Completion</h3>
+        <p>Receive updates on your application status.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div>
+        <h2>Need Assistance With Your Business Compliance?</h2>
+        <p>Let's discuss your requirements and find the right professional service.</p>
+      </div>
+      <a href="https://wa.me/918285620650?text=Hello%2C%20I%20need%20professional%20consultancy%20services." target="_blank" rel="noopener" class="btn">
+        <i class="fa-brands fa-whatsapp"></i> Chat With Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-tag">GET IN TOUCH</span>
+      <h2>Let's Simplify Your Business Compliance</h2>
+      <p>Contact us for taxation, registration, licensing and business consultancy services.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <h3>Contact Information</h3>
+        <p>Have a question or need assistance? Connect with our team.</p>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <strong>Call Us</strong>
+            <a href="tel:+918285620650">+91 8285620650</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <strong>Email Address</strong>
+            <a href="mailto:pankajthetaxation@gmail.com">pankajthetaxation@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div>
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/918285620650" target="_blank" rel="noopener">+91 8285620650</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Service Location</strong>
+            <span>Delhi NCR, India</span>
+          </div>
+        </div>
+
+        <div style="margin-top:20px;">
+          <a href="https://wa.me/918285620650" target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Contact on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="enquiryForm">
+
+        <h3>Send Your Enquiry</h3>
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Mobile Number *</label>
+            <input type="tel" id="phone" placeholder="Enter mobile number"
+              pattern="[6-9][0-9]{9}" maxlength="10" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" placeholder="Enter company name">
+          </div>
+
+          <div class="form-group full">
+            <label for="service">Select Service *</label>
+            <select id="service" required>
+              <option value="">Select a service</option>
+              <option>Income Tax Return</option>
+              <option>GST Registration</option>
+              <option>GST Return Filing</option>
+              <option>Company Incorporation</option>
+              <option>LLP Registration</option>
+              <option>ROC Filing</option>
+              <option>FSSAI Food Licence</option>
+              <option>Drug Licence</option>
+              <option>Factory Licence</option>
+              <option>ISO Certification</option>
+              <option>CE Certification</option>
+              <option>IEC Code</option>
+              <option>Trademark Registration</option>
+              <option>Labour Licences</option>
+              <option>Laboratory Testing</option>
+              <option>Other Services</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label for="message">Your Requirement / Message *</label>
+            <textarea id="message" placeholder="Tell us about your requirement..." required></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">
+          Submit Enquiry <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+        <p class="form-note">
+          By submitting, you agree to be contacted regarding your enquiry.
+          Your enquiry will be prepared for WhatsApp.
+        </p>
+
+        <div class="success-message" id="successMessage" role="status" aria-live="polite">
+          <i class="fa-solid fa-circle-check"></i>
+          Your enquiry is ready. Please send the pre-filled WhatsApp message to complete your submission.
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <div class="logo-text">
+            <strong>PANKAJ</strong>
+            <span>THE TAXATION</span>
+          </div>
+        </a>
+
+        <p>
+          Your trusted partner for taxation, business registration,
+          government licences and professional compliance assistance
+          across Delhi NCR.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://wa.me/918285620650" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:pankajthetaxation@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+918285620650" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#licences">Licences & Certifications</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Our Services</h3>
+        <ul class="footer-links">
+          <li><a href="#services">Income Tax Return</a></li>
+          <li><a href="#services">GST Registration</a></li>
+          <li><a href="#services">Company Incorporation</a></li>
+          <li><a href="#services">FSSAI Licence</a></li>
+          <li><a href="#services">ISO Certification</a></li>
+          <li><a href="#services">Trademark</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact Details</h3>
+        <ul class="footer-links">
+          <li><a href="tel:+918285620650"><i class="fa-solid fa-phone"></i> +91 8285620650</a></li>
+          <li><a href="mailto:pankajthetaxation@gmail.com"><i class="fa-solid fa-envelope"></i> pankajthetaxation@gmail.com</a></li>
+          <li><a href="https://wa.me/918285620650"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-location-dot"></i> Delhi NCR, India</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © <span id="year"></span> Pankaj The Taxation. All Rights Reserved.
+      <br><br>
+      <a href="#home">Privacy Policy</a> &nbsp; | &nbsp;
+      <a href="#home">Terms & Conditions</a>
+    </div>
+
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a
+  class="whatsapp-float"
+  href="https://wa.me/918285620650?text=Hello%2C%20I%20need%20assistance%20with%20your%20services."
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat with Pankaj The Taxation on WhatsApp"
+>
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script>
+
+// MOBILE MENU
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("active");
+  menuBtn.setAttribute("aria-expanded", isOpen);
+  menuBtn.innerHTML = isOpen
+    ? '<i class="fa-solid fa-xmark"></i>'
+    : '<i class="fa-solid fa-bars"></i>';
+});
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+  });
+});
+
+// SERVICE FILTER AND SEARCH
+const filterButtons = document.querySelectorAll(".filter-btn");
+const serviceCards = document.querySelectorAll(".service-card");
+const serviceSearch = document.getElementById("serviceSearch");
+const noResults = document.getElementById("noResults");
+
+let currentFilter = "all";
+
+function filterServices() {
+  const keyword = serviceSearch.value.toLowerCase().trim();
+  let visibleCount = 0;
+
+  serviceCards.forEach(card => {
+    const category = card.dataset.category;
+    const text = card.innerText.toLowerCase();
+
+    const categoryMatch =
+      currentFilter === "all" || category === currentFilter;
+
+    const searchMatch = text.includes(keyword);
+
+    const visible = categoryMatch && searchMatch;
+
+    card.style.display = visible ? "block" : "none";
+
+    if (visible) visibleCount++;
+  });
+
+  noResults.style.display = visibleCount ? "none" : "block";
+}
+
+filterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    filterButtons.forEach(btn => btn.classList.remove("active"));
+    button.classList.add("active");
+
+    currentFilter = button.dataset.filter;
+    filterServices();
+  });
+});
+
+serviceSearch.addEventListener("input", filterServices);
+
+// SERVICE ENQUIRY BUTTONS
+document.querySelectorAll(".learn-more").forEach(link => {
+  link.addEventListener("click", () => {
+    const selectedService = link.dataset.service;
+    document.getElementById("service").value = selectedService;
+  });
+});
+
+// ENQUIRY FORM
+const enquiryForm = document.getElementById("enquiryForm");
+const successMessage = document.getElementById("successMessage");
+
+enquiryForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  if (!enquiryForm.reportValidity()) return;
+
+  const name = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const company = document.getElementById("company").value.trim();
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value.trim();
+
+  const enquiryText =
+`Hello Pankaj The Taxation,
+
+I would like to enquire about your services.
+
+Name: ${name}
+Mobile: ${phone}
+Email: ${email}
+Company: ${company || "Not provided"}
+Required Service: ${service}
+
+Message:
+${message}
+
+Please contact me regarding this enquiry.
+
+Thank you.`;
+
+  const whatsappURL =
+    "https://wa.me/918285620650?text=" +
+    encodeURIComponent(enquiryText);
+
+  successMessage.style.display = "block";
+
+  window.open(whatsappURL, "_blank");
+
+  enquiryForm.reset();
+});
+
+// SCROLL REVEAL
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll(".reveal").forEach(element => {
+  observer.observe(element);
+});
+
+// COPYRIGHT YEAR
+document.getElementById("year").textContent = new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
